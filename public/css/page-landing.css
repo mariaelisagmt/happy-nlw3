@@ -35,4 +35,11 @@ body {
     justify-content: center;
 
     margin: auto; /*altera apenas laterais (OBS: juntamente com o flex pode alterar em 4 direcoes)*/
+
+    transition: background 200ms;
+}
+
+.visit a:hover {
+    background: #96feff;
+
 }
