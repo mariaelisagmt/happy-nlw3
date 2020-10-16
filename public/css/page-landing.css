@@ -100,6 +100,7 @@ main h1 {
         font-weight: bold;
         line-height: .88;
         margin: clamp(10%, 9vh, 12%) 0 4rem;
+        /*TAMANHO -> clamp (minino, ideal, maximo)*/
 
         width: min(300px, 80%);
     }
